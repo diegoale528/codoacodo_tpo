@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/favicon-32x32.png">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Contactanos</title>
+</head>
+
+<body>
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="novedades.html">Novedades</a>
+        <a href="contacto.html">Contactanos</a>
+    </nav>
+
+    <header>
+        <h1>Contactanos</h1>
+    </header>
+
+    <h3>Agenda tu turno con un profesional</h3>
+
+    <form action="mailto" method="post">
+    <ul> 
+        <li>
+            <p class="p-3">
+                <label for="nombre">Nombre y Apellido: </label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre y apellido" size="50" autocomplete="off">
+            </p>
+        </li>
+        
+        <li>
+            <p class="p-3">
+                <label for="edad">Edad: </label>
+                <input type="number" name="edad" id="edad" min="6" max="100" step="1">
+            </p>
+        </li>
+
+        <li>
+            <p class="p-3">
+                <label for="number">Celular de contacto </label>
+                <input type="tel" name="telefono" id="telefono" placeholder="sin el 0 ni el 15">
+            </p>
+        </li>
+
+        <li>
+            <p class="p-3">
+                <label for="correo">Correo electrónico: </label>
+                <input type="email" name="correo" id="correo" placeholder="Correo">
+            </p>
+        </li>
+
+        <p class="p-3">
+            <label for="Turnos"> Disponibilidad horaria </label>
+            <select name="Turnos" id="Turnos"> 
+                <option value="mañana"> Mañana </option>; 
+                <option value="tarde"> Tarde </option> 
+            </select>
+                
+        </p>
+        
+        <li>
+            <p class="p-3">
+                <input type="submit" value="Enviar">
+            </p>
+        </li>
+
+    </ul>
+    </form>
+
+    <h3>Reserva tu lugar para los talleres y cursos de capacitación profesional</h3>
+
+    <form action="mailto" method="post">
+       <ul>
+        <li>
+            <p class="p-3">
+                <label for="nombre">Nombre y Apellido: </label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre y apellido" size="50" autocomplete="off">
+            </p>
+        </li>
+        
+        <li>
+            <p class="p-3">
+                <label for="edad">Edad: </label>
+                <input type="number" name="edad" id="edad" min="6" max="100" step="1">
+            </p>
+        </li>
+
+        <li>
+            <p class="p-3">
+                <label for="number">Celular de contacto </label>
+                <input type="tel" name="telefono" id="telefono" placeholder="sin el 0 ni el 15">
+            </p>
+        </li>
+
+        <li>
+            <p class="p-3">
+                <label for="correo">Correo electrónico: </label>
+                <input type="email" name="correo" id="correo" placeholder="Correo">
+            </p>
+        </li>
+        <li>
+            <p class="p-3">
+                <label for="textarea">Escribinos tu consulta...</label> <br>
+                <textarea name="textarea" id="textarea" cols="50" rows="5"></textarea>
+            </p>
+        </li>
+
+        <p class="p-3">
+            Seleccionar:
+            <input type="radio" name="talleres" value="1"> Talleres
+            <input type="radio" name="capacitacion" value="2"> Capacitación Profesional
+        </p>
+
+        <p class="p-3">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+
+    <p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.512523177182!2d-64.23938068179383!3d-31.372428650518064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432992e60ba8a27%3A0x9a8a54e3b5f135d9!2sAv.%20Fernando%20Fader%204153%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1653274189889!5m2!1ses-419!2sar" 
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" >
+        </iframe>
+    </p>
+
+
+
+    <footer>
+        <p>
+            <i class='bx bxl-instagram bx-tada bx-lg' style='color:#52b4f7' ></i>
+
+            <a href="https://www.instagram.com/sensussalud/?hl=es">Seguinos en Instagram</a>
+        </p>
+
+        <p class="p-2">
+            Año 2022, Derechos Reservados
+        </p>
+    </footer>
+
+</body>
+</html>
